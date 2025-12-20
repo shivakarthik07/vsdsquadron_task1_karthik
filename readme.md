@@ -89,7 +89,9 @@ ls
 - RAM: 8 GB
 - CPU: 2 cores
 - Storage: 70 GB
-### 1.Install Virtual Box from here
+- <img width="1216" height="625" alt="Screenshot 2025-12-19 131129" src="https://github.com/user-attachments/assets/ecb43a47-0f74-4ce4-b8f1-83b7c3cb070a" />
+
+### 1.Install Virtual Box from here(make sure have more than 100gb free space in your disc)
 https://www.virtualbox.org/wiki/Downloads
 ### 2.Install ubuntu 22.04.05 from here
 https://releases.ubuntu.com/jammy/
@@ -231,6 +233,7 @@ riscv64-unknown-elf-gcc -O2 -march=rv64imac -mabi=lp64 \
 -o riscv_logo.elf riscv_logo.c
 qemu-riscv64 riscv_logo.elf
 ```
+
 
 
 
