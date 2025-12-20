@@ -218,7 +218,7 @@ spike --version
 git clone https://github.com/vsdip/vsd-riscv2.git
 git clone https://github.com/vsdip/vsdfpga_labs.git
 ``` 
-### 8. Sum1ton.c implementation
+### 8. Sum1ton.c implementation(screenshot attached in images folder)
 ### use these commands
 ```bash
 riscv64-unknown-elf-gcc -O2 -march=rv64imac -mabi=lp64 \
@@ -233,6 +233,7 @@ riscv64-unknown-elf-gcc -O2 -march=rv64imac -mabi=lp64 \
 -o riscv_logo.elf riscv_logo.c
 qemu-riscv64 riscv_logo.elf
 ```
+
 
 
 
